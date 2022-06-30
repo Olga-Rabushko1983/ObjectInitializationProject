@@ -3,7 +3,9 @@ public class Student {
     public int age;
     public double mark;
     public boolean alive;
-//defalt constructor
+
+
+    //defalt constructor
     public Student() {
         name = "no name";
         age = 16;
@@ -17,6 +19,7 @@ public class Student {
         this.mark=mark;
         this.alive=alive;
     }
+    //copy constructor
     public Student(Student student){
         name=student.name;
         age=student.age;
