@@ -17,6 +17,22 @@ public class Student {
         mark=m;
         alive=al;
     }
+    public Student(String n){
+        name=n;
+
+    }
+    public Student(double m){
+        mark=m;
+    }
+    public Student(String n, double m){
+        name =n;
+        mark=m;
+    }
+    public Student( double m, String n){
+        mark=m;
+        name =n;
+
+    }
     public String getInfo() {
         return name + ":age=" + age + ",mark=" + mark + ",is live=" + (alive ? "yes" : "no");
 
