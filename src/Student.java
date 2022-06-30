@@ -11,11 +11,11 @@ public class Student {
         alive = true;
     }
 //full constructor with param
-    public Student(String n, int a,double m, boolean al){
-        name=n;
-        age=a;
-        mark=m;
-        alive=al;
+    public Student(String name, int age,double mark, boolean alive){
+        this.name=name;
+        this.age=age;
+        this.mark=mark;
+        this.alive=alive;
     }
     public Student(Student student){
         name=student.name;
